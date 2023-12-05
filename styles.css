@@ -77,9 +77,9 @@ header > h1 > .colors-flat {
 .saved-nav {
   position: absolute;
   top: 0px;
-  right: -20vw;
+  right: -300px;
   height: 100vh;
-  width: 20vw;
+  width: 300px;
   display: flex;
   flex-flow: column;
   background: white;
@@ -126,15 +126,16 @@ header > h1 > .colors-flat {
 }
 
 .display-boxes {
-  margin: 1rem 0px 0px 0.5rem;
+  margin: 1rem 0px 0px 0px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0.5vw;
+  row-gap: 0.75rem;
+  justify-items: center;
 }
 
 .box {
-  height: 2.5vw;
-  width: 2.5vw;
+  height: 2rem;
+  width: 2rem;
   border-radius: 0.7rem;
 }
 

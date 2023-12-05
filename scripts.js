@@ -176,7 +176,7 @@ function displaySavedPalettes() {
       <div class="box" style="background: ${savedPalettes[i].colors[2].hex}"></div>
       <div class="box" style="background: ${savedPalettes[i].colors[3].hex}"></div>
       <div class="box" style="background: ${savedPalettes[i].colors[4].hex}"></div>
-      <img class="delete-btn" id="d${savedPalettes[i].id}" src="./icons/trashcan.png" style="width: 2.3vw; height: 2.3vw" alt="trashcan icon">
+      <img class="delete-btn" id="d${savedPalettes[i].id}" src="./icons/trashcan.png" style="width: 2rem; height: 2rem" alt="trashcan icon">
     `
   }
 } 
